@@ -8,5 +8,9 @@
 
 import Foundation
 
-print("Hello, World!")
+var array = [1,3,2,2,3,1]
 
+wiggleSort2(&array)
+print(findMid1(array))
+
+print(array)
