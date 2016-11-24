@@ -12,6 +12,7 @@
 		8778813C1DCE3E6C00187156 /* 324_wiggleSort.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8778813B1DCE3E6C00187156 /* 324_wiggleSort.swift */; };
 		878C47B31DE492EC00562BD4 /* 167_twoSumII.swift in Sources */ = {isa = PBXBuildFile; fileRef = 878C47B21DE492EC00562BD4 /* 167_twoSumII.swift */; };
 		878C47B51DE4934000562BD4 /* 2_addTwoNumbers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 878C47B41DE4934000562BD4 /* 2_addTwoNumbers.swift */; };
+		8797168D1DE5E5460034629F /* 3_longestSubstring.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8797168C1DE5E5460034629F /* 3_longestSubstring.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -33,6 +34,7 @@
 		8778813B1DCE3E6C00187156 /* 324_wiggleSort.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = 324_wiggleSort.swift; sourceTree = "<group>"; };
 		878C47B21DE492EC00562BD4 /* 167_twoSumII.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = 167_twoSumII.swift; sourceTree = "<group>"; };
 		878C47B41DE4934000562BD4 /* 2_addTwoNumbers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = 2_addTwoNumbers.swift; sourceTree = "<group>"; };
+		8797168C1DE5E5460034629F /* 3_longestSubstring.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = 3_longestSubstring.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +70,7 @@
 				877881341DCE3E2B00187156 /* main.swift */,
 				87408C0C1DE3456E00C9D525 /* 1_twoSum.swift */,
 				878C47B41DE4934000562BD4 /* 2_addTwoNumbers.swift */,
+				8797168C1DE5E5460034629F /* 3_longestSubstring.swift */,
 				878C47B21DE492EC00562BD4 /* 167_twoSumII.swift */,
 				8778813B1DCE3E6C00187156 /* 324_wiggleSort.swift */,
 			);
@@ -132,6 +135,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8797168D1DE5E5460034629F /* 3_longestSubstring.swift in Sources */,
 				878C47B51DE4934000562BD4 /* 2_addTwoNumbers.swift in Sources */,
 				8778813C1DCE3E6C00187156 /* 324_wiggleSort.swift in Sources */,
 				877881351DCE3E2B00187156 /* main.swift in Sources */,
