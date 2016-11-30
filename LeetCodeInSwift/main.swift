@@ -8,3 +8,4 @@
 
 import Foundation
 
+print(findMedianSortedArrays([1], [2,3,4,5,6]))
