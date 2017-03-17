@@ -8,12 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		87408C0D1DE3456E00C9D525 /* 1_twoSum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87408C0C1DE3456E00C9D525 /* 1_twoSum.swift */; };
+		875361841DF4781B002522D6 /* 5_LongestPalindromicSubString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 875361831DF4781B002522D6 /* 5_LongestPalindromicSubString.swift */; };
 		877881351DCE3E2B00187156 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 877881341DCE3E2B00187156 /* main.swift */; };
 		8778813C1DCE3E6C00187156 /* 324_wiggleSort.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8778813B1DCE3E6C00187156 /* 324_wiggleSort.swift */; };
 		878C47B31DE492EC00562BD4 /* 167_twoSumII.swift in Sources */ = {isa = PBXBuildFile; fileRef = 878C47B21DE492EC00562BD4 /* 167_twoSumII.swift */; };
 		878C47B51DE4934000562BD4 /* 2_addTwoNumbers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 878C47B41DE4934000562BD4 /* 2_addTwoNumbers.swift */; };
 		8797168D1DE5E5460034629F /* 3_longestSubstring.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8797168C1DE5E5460034629F /* 3_longestSubstring.swift */; };
 		8797168F1DE738860034629F /* 4_medianOfTwoSortedArrays.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8797168E1DE738860034629F /* 4_medianOfTwoSortedArrays.swift */; };
+		87C10A531E7C2AD8001D0089 /* 541_reverseStringII.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87C10A521E7C2AD8001D0089 /* 541_reverseStringII.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -30,6 +32,7 @@
 
 /* Begin PBXFileReference section */
 		87408C0C1DE3456E00C9D525 /* 1_twoSum.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = 1_twoSum.swift; sourceTree = "<group>"; };
+		875361831DF4781B002522D6 /* 5_LongestPalindromicSubString.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = 5_LongestPalindromicSubString.swift; sourceTree = "<group>"; };
 		877881311DCE3E2B00187156 /* LeetCodeInSwift */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = LeetCodeInSwift; sourceTree = BUILT_PRODUCTS_DIR; };
 		877881341DCE3E2B00187156 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		8778813B1DCE3E6C00187156 /* 324_wiggleSort.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = 324_wiggleSort.swift; sourceTree = "<group>"; };
@@ -37,6 +40,7 @@
 		878C47B41DE4934000562BD4 /* 2_addTwoNumbers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = 2_addTwoNumbers.swift; sourceTree = "<group>"; };
 		8797168C1DE5E5460034629F /* 3_longestSubstring.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = 3_longestSubstring.swift; sourceTree = "<group>"; };
 		8797168E1DE738860034629F /* 4_medianOfTwoSortedArrays.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = 4_medianOfTwoSortedArrays.swift; sourceTree = "<group>"; };
+		87C10A521E7C2AD8001D0089 /* 541_reverseStringII.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = 541_reverseStringII.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,8 +78,10 @@
 				878C47B41DE4934000562BD4 /* 2_addTwoNumbers.swift */,
 				8797168C1DE5E5460034629F /* 3_longestSubstring.swift */,
 				8797168E1DE738860034629F /* 4_medianOfTwoSortedArrays.swift */,
+				875361831DF4781B002522D6 /* 5_LongestPalindromicSubString.swift */,
 				878C47B21DE492EC00562BD4 /* 167_twoSumII.swift */,
 				8778813B1DCE3E6C00187156 /* 324_wiggleSort.swift */,
+				87C10A521E7C2AD8001D0089 /* 541_reverseStringII.swift */,
 			);
 			path = LeetCodeInSwift;
 			sourceTree = "<group>";
@@ -107,7 +113,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0810;
-				LastUpgradeCheck = 0810;
+				LastUpgradeCheck = 0820;
 				ORGANIZATIONNAME = dopcn;
 				TargetAttributes = {
 					877881301DCE3E2B00187156 = {
@@ -139,11 +145,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				8797168D1DE5E5460034629F /* 3_longestSubstring.swift in Sources */,
+				875361841DF4781B002522D6 /* 5_LongestPalindromicSubString.swift in Sources */,
 				878C47B51DE4934000562BD4 /* 2_addTwoNumbers.swift in Sources */,
 				8797168F1DE738860034629F /* 4_medianOfTwoSortedArrays.swift in Sources */,
 				8778813C1DCE3E6C00187156 /* 324_wiggleSort.swift in Sources */,
 				877881351DCE3E2B00187156 /* main.swift in Sources */,
 				87408C0D1DE3456E00C9D525 /* 1_twoSum.swift in Sources */,
+				87C10A531E7C2AD8001D0089 /* 541_reverseStringII.swift in Sources */,
 				878C47B31DE492EC00562BD4 /* 167_twoSumII.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -169,6 +177,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -217,6 +226,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -236,6 +246,7 @@
 				MACOSX_DEPLOYMENT_TARGET = 10.12;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 			};
 			name = Release;
 		};
