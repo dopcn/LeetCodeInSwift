@@ -12,10 +12,5 @@ import Foundation
 //print(longestPalindrome("ccd"))
 
 var str = "abcdefg"
-print(reverseStr(str, 2))
-
-
-//var chars = str.withMutableCharacters { (chars) -> String.CharacterView in
-//    
-//}
+//print(reverseStr(str, 2))
 
