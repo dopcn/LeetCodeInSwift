@@ -17,6 +17,7 @@
 		8797168F1DE738860034629F /* 4_medianOfTwoSortedArrays.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8797168E1DE738860034629F /* 4_medianOfTwoSortedArrays.swift */; };
 		87C10A531E7C2AD8001D0089 /* 541_reverseStringII.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87C10A521E7C2AD8001D0089 /* 541_reverseStringII.swift */; };
 		87C10A551E7C4AF7001D0089 /* 7_ReverseInteger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87C10A541E7C4AF7001D0089 /* 7_ReverseInteger.swift */; };
+		87C10A571E7CC307001D0089 /* 9_palindromeNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87C10A561E7CC307001D0089 /* 9_palindromeNumber.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -43,6 +44,7 @@
 		8797168E1DE738860034629F /* 4_medianOfTwoSortedArrays.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = 4_medianOfTwoSortedArrays.swift; sourceTree = "<group>"; };
 		87C10A521E7C2AD8001D0089 /* 541_reverseStringII.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = 541_reverseStringII.swift; sourceTree = "<group>"; };
 		87C10A541E7C4AF7001D0089 /* 7_ReverseInteger.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = 7_ReverseInteger.swift; sourceTree = "<group>"; };
+		87C10A561E7CC307001D0089 /* 9_palindromeNumber.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = 9_palindromeNumber.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +84,7 @@
 				8797168E1DE738860034629F /* 4_medianOfTwoSortedArrays.swift */,
 				875361831DF4781B002522D6 /* 5_LongestPalindromicSubString.swift */,
 				87C10A541E7C4AF7001D0089 /* 7_ReverseInteger.swift */,
+				87C10A561E7CC307001D0089 /* 9_palindromeNumber.swift */,
 				878C47B21DE492EC00562BD4 /* 167_twoSumII.swift */,
 				8778813B1DCE3E6C00187156 /* 324_wiggleSort.swift */,
 				87C10A521E7C2AD8001D0089 /* 541_reverseStringII.swift */,
@@ -148,6 +151,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8797168D1DE5E5460034629F /* 3_longestSubstring.swift in Sources */,
+				87C10A571E7CC307001D0089 /* 9_palindromeNumber.swift in Sources */,
 				875361841DF4781B002522D6 /* 5_LongestPalindromicSubString.swift in Sources */,
 				878C47B51DE4934000562BD4 /* 2_addTwoNumbers.swift in Sources */,
 				8797168F1DE738860034629F /* 4_medianOfTwoSortedArrays.swift in Sources */,

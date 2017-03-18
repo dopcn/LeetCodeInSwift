@@ -11,6 +11,4 @@ import Foundation
 //print(findMedianSortedArrays([1], [2,3,4,5,6]))
 //print(longestPalindrome("ccd"))
 
-var str = "abcdefg"
-//print(reverseStr(str, 2))
-
+print(isPalindrome(121))
