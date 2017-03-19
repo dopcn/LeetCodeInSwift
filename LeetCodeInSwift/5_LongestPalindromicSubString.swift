@@ -8,40 +8,39 @@
 
 import Foundation
 
-func longestSubArray<T:Comparable & Hashable>(_ a:[T], _ b:[T]) -> [T] {
-    var i = 0, j = 0, start = -1, length = 0, maxStart = 0, maxLength = 0
-    while i < a.count {
-        while j < b.count {
-            if a[i] == b[j] {
-                if start < 0 {
-                    start = i
-                }
-                length += 1
-                if length > maxLength {
-                    maxStart = start
-                    maxLength = length
-                }
-                i += 1
-            } else {
-                start = -1
-                length = 0
-            }
-            j += 1
-        }
-        i += 1
-        j = 0
-    }
-    
-    return Array(a[maxStart..<maxStart+maxLength])
-}
-
 func longestPalindrome(_ s: String) -> String {
     guard s.characters.count > 1 else {
         return s
     }
     
-    let fchars = Array(s.characters)
-    let bchars = Array(s.characters.reversed())
+//    var table =
     
-    return String(longestSubArray(fchars, bchars))
+    func isPalindrome<T: Comparable>(_ array: [T], from: Int, to: Int ) -> Bool {
+        var x = from, y = to
+        while x < y {
+            if array[x] != array[y] {
+                return false
+            }
+            x += 1
+            y -= 1
+        }
+        return true
+    }
+    
+    let array = Array(s.characters)
+    var x = 0, y = array.count-1, maxStart = 0, maxEnd = 0
+    while x <= y {
+        if y-x > maxEnd-maxStart {
+            if isPalindrome(array, from: x, to: y) {
+                maxStart = x
+                maxEnd = y
+            }
+            y -= 1
+        } else {
+            x = x+1
+            y = array.count-1
+        }
+    }
+    
+    return String(array[maxStart...maxEnd])
 }
