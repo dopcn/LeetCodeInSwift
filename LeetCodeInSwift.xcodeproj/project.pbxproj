@@ -20,6 +20,7 @@
 		87C10A571E7CC307001D0089 /* 9_palindromeNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87C10A561E7CC307001D0089 /* 9_palindromeNumber.swift */; };
 		87C10A591E7EE1D9001D0089 /* 14_LongestCommonPrefix.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87C10A581E7EE1D9001D0089 /* 14_LongestCommonPrefix.swift */; };
 		87C10A5B1E7F6B28001D0089 /* 543_DiameterBinaryTree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87C10A5A1E7F6B28001D0089 /* 543_DiameterBinaryTree.swift */; };
+		87C10A5D1E800B78001D0089 /* 21_MergeTwoSortedList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87C10A5C1E800B78001D0089 /* 21_MergeTwoSortedList.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -49,6 +50,7 @@
 		87C10A561E7CC307001D0089 /* 9_palindromeNumber.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = 9_palindromeNumber.swift; sourceTree = "<group>"; };
 		87C10A581E7EE1D9001D0089 /* 14_LongestCommonPrefix.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = 14_LongestCommonPrefix.swift; sourceTree = "<group>"; };
 		87C10A5A1E7F6B28001D0089 /* 543_DiameterBinaryTree.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = 543_DiameterBinaryTree.swift; sourceTree = "<group>"; };
+		87C10A5C1E800B78001D0089 /* 21_MergeTwoSortedList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = 21_MergeTwoSortedList.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +92,7 @@
 				87C10A541E7C4AF7001D0089 /* 7_ReverseInteger.swift */,
 				87C10A561E7CC307001D0089 /* 9_palindromeNumber.swift */,
 				87C10A581E7EE1D9001D0089 /* 14_LongestCommonPrefix.swift */,
+				87C10A5C1E800B78001D0089 /* 21_MergeTwoSortedList.swift */,
 				878C47B21DE492EC00562BD4 /* 167_twoSumII.swift */,
 				8778813B1DCE3E6C00187156 /* 324_wiggleSort.swift */,
 				87C10A521E7C2AD8001D0089 /* 541_reverseStringII.swift */,
@@ -167,6 +170,7 @@
 				87408C0D1DE3456E00C9D525 /* 1_twoSum.swift in Sources */,
 				87C10A551E7C4AF7001D0089 /* 7_ReverseInteger.swift in Sources */,
 				87C10A5B1E7F6B28001D0089 /* 543_DiameterBinaryTree.swift in Sources */,
+				87C10A5D1E800B78001D0089 /* 21_MergeTwoSortedList.swift in Sources */,
 				87C10A531E7C2AD8001D0089 /* 541_reverseStringII.swift in Sources */,
 				878C47B31DE492EC00562BD4 /* 167_twoSumII.swift in Sources */,
 			);
