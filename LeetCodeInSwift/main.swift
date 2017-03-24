@@ -13,4 +13,11 @@ import Foundation
 
 //print(longestPalindrome("aaaabaaa"))
 
-print(longestCommonPrefix(["abc", "acc", "add"]))
+//print(longestCommonPrefix(["abc", "acc", "add"]))
+
+//print(threeSum([-1,0,1,2,-1,-4]))
+//print(threeSum([0,0,0,0]))
+
+
+let nums = [1,2,3]
+print(nums.reduce(0){$0+$1})
