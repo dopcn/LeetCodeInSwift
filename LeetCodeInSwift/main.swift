@@ -18,4 +18,5 @@ import Foundation
 //print(threeSum([-1,0,1,2,-1,-4]))
 //print(threeSum([0,0,0,0]))
 
-print(generateParenthesis(4))
+//print(generateParenthesis(4))
+print(fourSum([-3,-2,-1,0,0,1,2,3], 0))
