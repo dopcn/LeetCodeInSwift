@@ -32,6 +32,7 @@
 		87C10A5D1E800B78001D0089 /* 21_MergeTwoSortedList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87C10A5C1E800B78001D0089 /* 21_MergeTwoSortedList.swift */; };
 		87C10A5F1E802B8E001D0089 /* 15_3Sum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87C10A5E1E802B8E001D0089 /* 15_3Sum.swift */; };
 		87C10A611E802D72001D0089 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87C10A601E802D72001D0089 /* Models.swift */; };
+		87DE844C1F0E8F70009AF536 /* 38_CountAndSay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87DE844B1F0E8F70009AF536 /* 38_CountAndSay.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -73,6 +74,7 @@
 		87C10A5C1E800B78001D0089 /* 21_MergeTwoSortedList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = 21_MergeTwoSortedList.swift; sourceTree = "<group>"; };
 		87C10A5E1E802B8E001D0089 /* 15_3Sum.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = 15_3Sum.swift; sourceTree = "<group>"; };
 		87C10A601E802D72001D0089 /* Models.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		87DE844B1F0E8F70009AF536 /* 38_CountAndSay.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = 38_CountAndSay.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -126,6 +128,7 @@
 				876C31851E89F1DD00408D50 /* 27_RemoveElement.swift */,
 				8718B35B1E8B490000F85C26 /* 28_strStr().swift */,
 				8748D3701E8DE8D00062E88E /* 35_searchInsert.swift */,
+				87DE844B1F0E8F70009AF536 /* 38_CountAndSay.swift */,
 				878C47B21DE492EC00562BD4 /* 167_twoSumII.swift */,
 				8778813B1DCE3E6C00187156 /* 324_wiggleSort.swift */,
 				87C10A521E7C2AD8001D0089 /* 541_reverseStringII.swift */,
@@ -214,6 +217,7 @@
 				878F716D1E84BF7A00169438 /* 22_GenerateParentheses.swift in Sources */,
 				872F47901E8628640007A8F5 /* 26_RemoveDuplicatedSortedArray.swift in Sources */,
 				87C10A5D1E800B78001D0089 /* 21_MergeTwoSortedList.swift in Sources */,
+				87DE844C1F0E8F70009AF536 /* 38_CountAndSay.swift in Sources */,
 				87C10A531E7C2AD8001D0089 /* 541_reverseStringII.swift in Sources */,
 				878C47B31DE492EC00562BD4 /* 167_twoSumII.swift in Sources */,
 				87C10A5F1E802B8E001D0089 /* 15_3Sum.swift in Sources */,
