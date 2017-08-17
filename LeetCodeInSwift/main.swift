@@ -20,4 +20,8 @@ import Foundation
 
 //print(generateParenthesis(4))
 //print(fourSum([-3,-2,-1,0,0,1,2,3], 0))
-print(countAndSay(6))
+//print(combinationSum([2,3,6,7], 7))
+
+//print(maxSubArray([-2,1,-3,4,-1,2,1,-5,4]))
+
+print(lengthOfLastWord("a "))
