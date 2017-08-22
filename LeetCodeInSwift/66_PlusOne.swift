@@ -8,22 +8,22 @@
 
 import Foundation
 
-// 整体循环思路不对
 func plusOne(_ digits: [Int]) -> [Int] {
     var result = digits
     var index = digits.endIndex-1
-    if ((result[index] + 1)/10 > 0) {
-        var needPlus = true
-        while index >= 0 {
-            if needPlus {
-                result[index] = (result[index]+1)%10
-                index -= 1
-            } else {
-                
-            }
+    var needPlus = true
+    while index >= 0 {
+        if needPlus {
+            needPlus = (result[index]+1)/10 > 0
+            result[index] = (result[index]+1)%10
+        } else {
+            break
         }
-    } else {
-        result[index] = result[index] + 1
+        index -= 1
     }
+    if needPlus {
+        result.insert(1, at: 0)
+    }
+    
     return result
 }
