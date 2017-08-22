@@ -26,4 +26,6 @@ import Foundation
 
 //print(lengthOfLastWord("a "))
 
-print(plusOne([9]))
+//print(plusOne([9]))
+
+print(addBinary("110010","10111"))
