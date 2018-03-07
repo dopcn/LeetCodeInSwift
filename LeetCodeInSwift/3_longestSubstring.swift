@@ -8,12 +8,15 @@
 
 import Foundation
 
+//没有重复字符的最大字符串
+//双指针遍历没有重复字符的字符串，记录最大值
+
 func lengthOfLongestSubstring(_ s: String) -> Int {
-    guard s.characters.count > 1 else {
-        return s.characters.count
+    guard s.count > 1 else {
+        return s.count
     }
     
-    let chars = Array(s.characters)
+    let chars = Array(s)
     var dict = Dictionary<Character, Int>()
     var head = 0, tail = 0, maxValue = 0
     while head <= tail && tail < chars.count {
@@ -27,8 +30,3 @@ func lengthOfLongestSubstring(_ s: String) -> Int {
    
     return maxValue
 }
-
-
-
-
-

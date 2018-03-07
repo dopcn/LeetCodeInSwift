@@ -9,16 +9,16 @@
 import Foundation
 
 func lengthOfLastWord(_ s: String) -> Int {
-    guard s.characters.count > 0 else {
+    guard s.count > 0 else {
         return 0
     }
     
     let word = s.components(separatedBy: " ").filter({ (s) -> Bool in
-        return s != " " && s.characters.count > 0
+        return s != " " && s.count > 0
     }).last
     
     if let theWord = word {
-        return theWord.characters.count
+        return theWord.count
     }
     
     return 0

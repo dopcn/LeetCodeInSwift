@@ -9,8 +9,8 @@
 import Foundation
 
 func addBinary(_ a: String, _ b: String) -> String {
-    guard a.characters.count > 0 && b.characters.count > 0 else {
-        if a.characters.count > 0 {
+    guard a.count > 0 && b.count > 0 else {
+        if a.count > 0 {
             return a
         } else {
             return b
@@ -18,12 +18,12 @@ func addBinary(_ a: String, _ b: String) -> String {
     }
     
     var long = [Int](), short = [Int]()
-    if a.characters.count >= b.characters.count {
-        long = a.characters.flatMap{Int(String($0))}
-        short = b.characters.flatMap{Int(String($0))}
+    if a.count >= b.count {
+        long = a.flatMap{Int(String($0))}
+        short = b.flatMap{Int(String($0))}
     } else {
-        long = b.characters.flatMap{Int(String($0))}
-        short = a.characters.flatMap{Int(String($0))}
+        long = b.flatMap{Int(String($0))}
+        short = a.flatMap{Int(String($0))}
     }
     
     var lIndex = long.count-1, sIndex = short.count-1

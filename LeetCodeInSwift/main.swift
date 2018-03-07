@@ -28,4 +28,16 @@ import Foundation
 
 //print(plusOne([9]))
 
-print(addBinary("110010","10111"))
+//print(addBinary("110010","10111"))
+
+var node: ListNode?
+var head = ListNode(6), tmp = head
+let nums = [3,4,9,0,2,1,6,2,8,1,2,6,3,5,0,7,8,1]
+for num in nums {
+    let node = ListNode(num)
+    tmp.next = node
+    tmp = tmp.next!
+}
+
+node = removeNthFromEnd(head, 1)!
+node?.headPrint()

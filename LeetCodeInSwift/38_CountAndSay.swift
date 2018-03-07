@@ -14,7 +14,7 @@ func countAndSay(_ n: Int) -> String {
     }
     
     func iterate(_ str: String) -> String {
-        let chars = Array(str.characters)
+        let chars = Array(str)
         var count = 0, result = "", tmp = chars.first!
         for (index, char) in chars.enumerated() {
             if char != tmp {

@@ -9,12 +9,12 @@
 import Foundation
 
 func strStr(_ haystack: String, _ needle: String) -> Int {
-    if needle.characters.count == 0 {
+    if needle.count == 0 {
         return 0
     }
     
     if let range = haystack.range(of: needle) {
-        return haystack.characters.distance(from: haystack.startIndex, to: range.lowerBound)
+        return haystack.distance(from: haystack.startIndex, to: range.lowerBound)
     } else {
         return -1
     }

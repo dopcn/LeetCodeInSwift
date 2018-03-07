@@ -13,12 +13,12 @@ func longestCommonPrefix(_ strs: [String]) -> String {
     if strs.count == 1 { return strs[0] }
     
     func commonPrefixString(_ str1: String, _ str2: String) -> String {
-        guard str1.characters.count > 0 && str2.characters.count > 0 else {
+        guard str1.count > 0 && str2.count > 0 else {
             return ""
         }
         
         var x = 0
-        let array1 = Array(str1.characters), array2 = Array(str2.characters)
+        let array1 = Array(str1), array2 = Array(str2)
         while x < array1.count && x < array2.count && array1[x] == array2[x] {
             x += 1
         }

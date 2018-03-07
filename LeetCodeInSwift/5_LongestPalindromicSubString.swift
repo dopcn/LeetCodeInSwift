@@ -9,7 +9,7 @@
 import Foundation
 
 func longestPalindrome(_ s: String) -> String {
-    guard s.characters.count > 1 else {
+    guard s.count > 1 else {
         return s
     }
     
@@ -27,7 +27,7 @@ func longestPalindrome(_ s: String) -> String {
         return true
     }
     
-    let array = Array(s.characters)
+    let array = Array(s)
     var x = 0, y = array.count-1, maxStart = 0, maxEnd = 0
     while x <= y {
         if y-x > maxEnd-maxStart {

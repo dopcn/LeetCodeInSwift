@@ -9,7 +9,7 @@
 import Foundation
 
 func isValid(_ s: String) -> Bool {
-    guard s.characters.count >= 2 else {
+    guard s.count >= 2 else {
         return false
     }
     
@@ -23,7 +23,7 @@ func isValid(_ s: String) -> Bool {
         }
     }
     
-    let array = Array(s.characters)
+    let array = Array(s)
     var stack = [Character]()
     array.forEach { (char) in
         if let last = stack.last {
