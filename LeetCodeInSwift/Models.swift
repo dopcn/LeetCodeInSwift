@@ -11,11 +11,13 @@ import Foundation
 class ListNode {
     public var val: Int
     public var next: ListNode?
+    
     public init(_ val: Int) {
         self.val = val
         self.next = nil
     }
-    public func headPrint() {
+    
+    public func printList() {
         var list = "\(self.val)->"
         var next = self.next
         while let theNode = next {

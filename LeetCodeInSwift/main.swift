@@ -39,5 +39,6 @@ for num in nums {
     tmp = tmp.next!
 }
 
-node = removeNthFromEnd(head, 1)!
-node?.headPrint()
+//node = removeNthFromEnd(head, 1)!
+head.printList()
+reverseLinkList2(head).printList()
