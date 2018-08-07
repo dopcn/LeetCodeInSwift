@@ -28,8 +28,8 @@ func twoSum(_ nums: [Int], _ target: Int) -> [Int] {
 func twoSum2(_ nums: [Int], _ target: Int) -> [Int] {
     var dict = Dictionary<Int, Int>(), i = 0
     while i < nums.count {
-        if let value = dict[target - nums[i]] {
-            return [i, value]
+        if let index = dict[target - nums[i]] {
+            return [i, index]
         } else {
             dict[nums[i]] = i
             i += 1
