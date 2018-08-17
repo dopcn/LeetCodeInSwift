@@ -25,8 +25,12 @@ func twoSum(_ nums: [Int], _ target: Int) -> [Int] {
     return [i, j]
 }
 
+
+// 利用 hash table 记录已经遍历过的元素
+
 func twoSum2(_ nums: [Int], _ target: Int) -> [Int] {
-    var dict = Dictionary<Int, Int>(), i = 0
+    var dict = Dictionary<Int, Int>(),
+        i = 0
     while i < nums.count {
         if let index = dict[target - nums[i]] {
             return [i, index]
