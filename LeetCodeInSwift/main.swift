@@ -30,15 +30,31 @@ import Foundation
 
 //print(addBinary("110010","10111"))
 
-var node: ListNode?
-var head = ListNode(6), tmp = head
-let nums = [3,4,9,0,2,1,6,2,8,1,2,6,3,5,0,7,8,1]
-for num in nums {
-    let node = ListNode(num)
-    tmp.next = node
-    tmp = tmp.next!
-}
+//var node: ListNode?
+//var head = ListNode(6), tmp = head
+//let nums = [3,4,9,0,2,1,6,2,8,1,2,6,3,5,0,7,8,1]
+//for num in nums {
+//    let node = ListNode(num)
+//    tmp.next = node
+//    tmp = tmp.next!
+//}
 
 //node = removeNthFromEnd(head, 1)!
+//head.printList()
+//reverseLinkList2(head).printList()
+
+
+let nums = [3,4,9,0,2,1,6,2,8,1,2,6,3,5,0,7,8,1]
+let head = DoublyListNode(1)
+var last = head
+for num in nums {
+    let tmp = DoublyListNode(num)
+    last.next = tmp
+    tmp.previous = last
+    
+    if last.next != nil {
+        last = last.next!
+    }
+}
+
 head.printList()
-reverseLinkList2(head).printList()

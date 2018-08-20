@@ -38,10 +38,10 @@
 		87C10A5D1E800B78001D0089 /* 21_MergeTwoSortedList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87C10A5C1E800B78001D0089 /* 21_MergeTwoSortedList.swift */; };
 		87C10A5F1E802B8E001D0089 /* 15_3Sum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87C10A5E1E802B8E001D0089 /* 15_3Sum.swift */; };
 		87C10A611E802D72001D0089 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87C10A601E802D72001D0089 /* Models.swift */; };
-		87D2F2EE2052D4F500FE4746 /* ReverseLinkList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87D2F2ED2052D4F500FE4746 /* ReverseLinkList.swift */; };
 		87DE844C1F0E8F70009AF536 /* 38_CountAndSay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87DE844B1F0E8F70009AF536 /* 38_CountAndSay.swift */; };
 		87DE844E1F0E9CCE009AF536 /* 39_CombinationSum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87DE844D1F0E9CCE009AF536 /* 39_CombinationSum.swift */; };
 		87EC780C2050394300330DD9 /* 207_CourseSchedule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87EC780B2050394300330DD9 /* 207_CourseSchedule.swift */; };
+		87F4E245212AEC5700E9EF74 /* LinkedList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87F4E244212AEC5700E9EF74 /* LinkedList.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -89,10 +89,10 @@
 		87C10A5C1E800B78001D0089 /* 21_MergeTwoSortedList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = 21_MergeTwoSortedList.swift; sourceTree = "<group>"; };
 		87C10A5E1E802B8E001D0089 /* 15_3Sum.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = 15_3Sum.swift; sourceTree = "<group>"; };
 		87C10A601E802D72001D0089 /* Models.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
-		87D2F2ED2052D4F500FE4746 /* ReverseLinkList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReverseLinkList.swift; sourceTree = "<group>"; };
 		87DE844B1F0E8F70009AF536 /* 38_CountAndSay.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = 38_CountAndSay.swift; sourceTree = "<group>"; };
 		87DE844D1F0E9CCE009AF536 /* 39_CombinationSum.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = 39_CombinationSum.swift; sourceTree = "<group>"; };
 		87EC780B2050394300330DD9 /* 207_CourseSchedule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 207_CourseSchedule.swift; sourceTree = "<group>"; };
+		87F4E244212AEC5700E9EF74 /* LinkedList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LinkedList.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -126,7 +126,7 @@
 			isa = PBXGroup;
 			children = (
 				877881341DCE3E2B00187156 /* main.swift */,
-				87D2F2ED2052D4F500FE4746 /* ReverseLinkList.swift */,
+				87F4E244212AEC5700E9EF74 /* LinkedList.swift */,
 				8795C7A021216F2A008C536E /* Tree.swift */,
 				87C10A601E802D72001D0089 /* Models.swift */,
 				87408C0C1DE3456E00C9D525 /* 1_twoSum.swift */,
@@ -230,7 +230,6 @@
 				87C10A591E7EE1D9001D0089 /* 14_LongestCommonPrefix.swift in Sources */,
 				875361841DF4781B002522D6 /* 5_LongestPalindromicSubString.swift in Sources */,
 				878C47B51DE4934000562BD4 /* 2_addTwoNumbers.swift in Sources */,
-				87D2F2EE2052D4F500FE4746 /* ReverseLinkList.swift in Sources */,
 				878F71691E841E7E00169438 /* 16_3SumClosest.swift in Sources */,
 				87DE844E1F0E9CCE009AF536 /* 39_CombinationSum.swift in Sources */,
 				874471BB1F4BC94B00EB70AB /* 67_AddBinary.swift in Sources */,
@@ -241,6 +240,7 @@
 				876C31861E89F1DD00408D50 /* 27_RemoveElement.swift in Sources */,
 				877881351DCE3E2B00187156 /* main.swift in Sources */,
 				878F716B1E84B7C100169438 /* 20_ValidParentheses.swift in Sources */,
+				87F4E245212AEC5700E9EF74 /* LinkedList.swift in Sources */,
 				8718D50F1F28E2AF0014992D /* 53_MaximumSubarray.swift in Sources */,
 				87408C0D1DE3456E00C9D525 /* 1_twoSum.swift in Sources */,
 				87C10A551E7C4AF7001D0089 /* 7_ReverseInteger.swift in Sources */,

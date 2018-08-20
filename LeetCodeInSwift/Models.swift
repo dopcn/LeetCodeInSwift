@@ -29,6 +29,28 @@ class ListNode {
     }
 }
 
+class DoublyListNode {
+    public var val: Int
+    public var next: DoublyListNode?
+    public var previous: DoublyListNode?
+    
+    public init(_ val: Int) {
+        self.val = val
+        self.next = nil
+    }
+    
+    public func printList() {
+        var list = "\(self.val)<->"
+        var next = self.next
+        while let theNode = next {
+            list = list + "\(theNode.val)<->"
+            next = theNode.next
+        }
+        list = list + "end"
+        print(list)
+    }
+}
+
 class TreeNode {
     public var val: Int
     public var left: TreeNode?
