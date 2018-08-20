@@ -38,3 +38,31 @@ func reverseLinkList2(_ head: ListNode) -> ListNode {
     
     return ahead.next!
 }
+
+func deleteInDoublyList(head: DoublyListNode, value: Int) -> DoublyListNode? {
+    let ahead = DoublyListNode(0)
+    ahead.next = head
+    head.previous = ahead
+    
+    var node = ahead
+    var deleteNext: DoublyListNode?
+    while let next = node.next {
+        if next.val == value {
+            deleteNext = node
+            break
+        }
+        
+        if node.next != nil {
+            node = node.next!
+        }
+    }
+    
+    if let delete = deleteNext {
+        let tmp = delete.next
+        delete.next = tmp?.next
+        tmp?.next?.previous = delete
+    }
+    
+    return ahead.next
+
+}

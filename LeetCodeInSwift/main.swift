@@ -58,3 +58,5 @@ for num in nums {
 }
 
 head.printList()
+deleteInDoublyList(head: head, value: 9)?.printList()
+
