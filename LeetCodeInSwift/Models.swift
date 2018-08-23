@@ -37,6 +37,7 @@ class DoublyListNode {
     public init(_ val: Int) {
         self.val = val
         self.next = nil
+        self.previous = nil
     }
     
     public func printList() {

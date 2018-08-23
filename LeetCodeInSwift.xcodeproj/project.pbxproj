@@ -42,6 +42,7 @@
 		87DE844E1F0E9CCE009AF536 /* 39_CombinationSum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87DE844D1F0E9CCE009AF536 /* 39_CombinationSum.swift */; };
 		87EC780C2050394300330DD9 /* 207_CourseSchedule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87EC780B2050394300330DD9 /* 207_CourseSchedule.swift */; };
 		87F4E245212AEC5700E9EF74 /* LinkedList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87F4E244212AEC5700E9EF74 /* LinkedList.swift */; };
+		87F4E247212B0D1D00E9EF74 /* Sort.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87F4E246212B0D1D00E9EF74 /* Sort.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -93,6 +94,7 @@
 		87DE844D1F0E9CCE009AF536 /* 39_CombinationSum.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = 39_CombinationSum.swift; sourceTree = "<group>"; };
 		87EC780B2050394300330DD9 /* 207_CourseSchedule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 207_CourseSchedule.swift; sourceTree = "<group>"; };
 		87F4E244212AEC5700E9EF74 /* LinkedList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LinkedList.swift; sourceTree = "<group>"; };
+		87F4E246212B0D1D00E9EF74 /* Sort.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sort.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -127,6 +129,7 @@
 			children = (
 				877881341DCE3E2B00187156 /* main.swift */,
 				87F4E244212AEC5700E9EF74 /* LinkedList.swift */,
+				87F4E246212B0D1D00E9EF74 /* Sort.swift */,
 				8795C7A021216F2A008C536E /* Tree.swift */,
 				87C10A601E802D72001D0089 /* Models.swift */,
 				87408C0C1DE3456E00C9D525 /* 1_twoSum.swift */,
@@ -252,6 +255,7 @@
 				876731991E8C956800E8C361 /* 18_4Sum.swift in Sources */,
 				874471821F452D0600EB70AB /* 58_LengthOfLastWord.swift in Sources */,
 				878F716D1E84BF7A00169438 /* 22_GenerateParentheses.swift in Sources */,
+				87F4E247212B0D1D00E9EF74 /* Sort.swift in Sources */,
 				872F47901E8628640007A8F5 /* 26_RemoveDuplicatedSortedArray.swift in Sources */,
 				87C10A5D1E800B78001D0089 /* 21_MergeTwoSortedList.swift in Sources */,
 				87DE844C1F0E8F70009AF536 /* 38_CountAndSay.swift in Sources */,

@@ -44,19 +44,23 @@ import Foundation
 //reverseLinkList2(head).printList()
 
 
-let nums = [3,4,9,0,2,1,6,2,8,1,2,6,3,5,0,7,8,1]
-let head = DoublyListNode(1)
-var last = head
-for num in nums {
-    let tmp = DoublyListNode(num)
-    last.next = tmp
-    tmp.previous = last
-    
-    if last.next != nil {
-        last = last.next!
-    }
-}
+//let nums = [3,4,9,0,2,1,6,2,8,1,2,6,3,5,0,7,8,1]
+//let head = DoublyListNode(1)
+//var last = head
+//for num in nums {
+//    let tmp = DoublyListNode(num)
+//    last.next = tmp
+//    tmp.previous = last
+//
+//    if last.next != nil {
+//        last = last.next!
+//    }
+//}
+//
+//head.printList()
+//deleteInDoublyList(head: head, value: 9)?.printList()
 
-head.printList()
-deleteInDoublyList(head: head, value: 9)?.printList()
 
+var array = [1, 0, 11, 23, 99, 44, 32, 55]
+quickSort(&array, begin: 0, end: array.count-1)
+print(array)
