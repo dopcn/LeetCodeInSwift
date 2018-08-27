@@ -62,5 +62,5 @@ import Foundation
 
 
 var array = [1, 0, 11, 23, 99, 44, 32, 55]
-quickSort(&array, begin: 0, end: array.count-1)
+quickSort2(&array, begin: 0, end: array.count-1)
 print(array)
